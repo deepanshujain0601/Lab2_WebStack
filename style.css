@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+#statusText {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#userCanvas {
+    transition: opacity 0.6s ease-in-out;
+}
+
+#carouselBox {
+    width: 240px;
+    min-height: 120px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.carousel-item {
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+}
